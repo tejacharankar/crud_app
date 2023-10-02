@@ -1,0 +1,30 @@
+.userForm{
+    background-color: aqua;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 12vh;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.userForm > input{
+    padding: 0.7rem;
+    margin: 10px;
+    outline: none;
+}
+
+input[type="submit"]{
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover{
+    background-color: green;
+}

@@ -1,0 +1,20 @@
+.tableBtn{
+    width: 80%;
+    padding: 0.3%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deleteBtn{
+    background-color: orangered;
+}
+
+.editBtn{
+    text-decoration: none;
+}
+
+.editBtn:hover{
+    background-color: green;
+}

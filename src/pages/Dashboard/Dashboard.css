@@ -1,0 +1,27 @@
+#appHeading{
+    text-align: center;
+}
+
+#searchBar, #filterByGender{
+    padding: 0.4rem;
+    margin: 0.2rem;
+    outline: none;
+}
+
+#addBtn{
+    float: right;
+    padding: 0.4rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+#addBtn:hover{
+    background-color: orangered;
+    color: black;
+    border-color: orangered;
+}
